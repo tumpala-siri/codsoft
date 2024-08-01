@@ -1,4 +1,4 @@
-#creating calculator with gui
+#creating calculator with GUI
 from tkinter import *
 window=Tk()
 window.title("Calculator")
@@ -71,7 +71,7 @@ def click(a):
             l1.delete(1.0,END)
             l1.insert(1.0,"Error")
             print(f"Error:{e}")
-
+    #removing one last digit
     elif(a=="backspace"):
         try:
             s=s.rstrip(s[-1])
